@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bosque dos Fios — Amigurumis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="images/logo.png" alt="Bosque dos Fios logo" class="logo"/>
+        <div>
+          <h1>Bosque dos Fios</h1>
+          <p class="tagline">Amigurumis artesanais com muito carinho</p>
+        </div>
+      </div>
+      <nav class="nav" id="navMenu">
+        <a href="#produtos" class="nav-link">Produtos</a>
+        <a href="#sobre" class="nav-link">Sobre</a>
+        <a href="#contato" class="nav-link">Contato</a>
+      </nav>
+      <button class="hamburger" id="hamburgerBtn" aria-label="Abrir menu">&#9776;</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h2>Amigurumis que aquecem o coração</h2>
+          <p>Peças feitas à mão, personalizáveis e perfeitas para presentes e decoração.</p>
+        </div>
+        <img src="images/logo.png" alt="Logo Bosque dos Fios" class="hero-image"/>
+      </div>
+    </section>
+
+    <section id="produtos" class="container produtos-section">
+      <div class="section-header">
+        <h3>Galeria de Produtos</h3>
+        <p>Clique em um produto para ver detalhes.</p>
+      </div>
+      <div id="produtosGrid" class="grid">
+        <!-- Cards via JS -->
+      </div>
+    </section>
+
+    <section id="sobre" class="container about">
+      <h3>Sobre o Bosque dos Fios</h3>
+  <p>
+    O <strong>Bosque dos Fios</strong> nasceu recentemente de um sonho cheio de carinho e criatividade, cada ponto, cada detalhe, é feito à mão com dedicação e amor, transformando simples fios em pequenos encantos que carregam alma e personalidade.
+  </p>
+  <p>
+    Nossos amigurumis são confeccionadas com materiais de qualidade e muito cuidado, por serem artesanais, podem possuir pequenas variações que tornam cada criação verdadeiramente única.
+  </p>
+  <p>
+    Atualmente, nossas vendas acontecem através da plataforma <strong>Shopee</strong>. Você pode acessar o link para a loja na seção abaixo e conhecer todos os nossos produtos a pronta entrega.
+  </p>
+    </section>
+
+    <section id="contato" class="container contato">
+  <h3>Contatos</h3>
+  <p>
+    <img src="images/zap.png" alt="WhatsApp" /> (48) 98464-4797
+  </p>
+  <p>
+    <img src="images/shopee.png" alt="Shopee" /> Compre através da loja <a href="https://shopee.com.br/bosquedosfios" target="_blank">Shopee</a>
+  </p>
+</section>
+  </main>
+
+  <!-- Product Modal -->
+  <div id="productModal" class="modal" aria-hidden="true">
+    <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="Fechar">✕</button>
+      <div class="modal-body">
+        <img id="modalImage" src="" alt="" />
+        <div class="modal-info">
+          <h4 id="modalTitle"></h4>
+          <p id="modalDesc"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- WhatsApp flutuante -->
+  <a href="https://wa.me/qr/VMUFGSGGS2WNH1" target="_blank" class="whatsapp-float">
+    <img src="images/zap.png" alt="WhatsApp"/>
+  </a>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Bosque dos Fios — Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
