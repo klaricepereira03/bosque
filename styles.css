@@ -51,10 +51,11 @@ body {
   gap: 14px;
 }
 .logo {
-  width: 64px;
-  height: 64px;
+  width: 60px;
+  height: 60px;
   object-fit: cover;
-  border-radius: 12px;
+  border-radius: 50px;
+ 
 }
 .brand h1 {
   margin: 0;
@@ -129,9 +130,10 @@ body {
   color: var(--muted);
 }
 .hero-image {
-  width: 160px;
-  height: 160px;
-  border-radius: 20px;
+  width: 180px;
+  height: 180px;
+  border-radius: 100px;
+  border: 3px solid #d5c7b3; /* mesma cor do menu */
   object-fit: cover;
 }
 
@@ -305,6 +307,7 @@ body {
 }
 
 @media (max-width: 700px) {
+  
   .nav {
     display: none;
   }
@@ -321,7 +324,8 @@ body {
     grid-template-columns: 1fr;
   }
   .brand h1 {
-    display: none;
+    display: block;
+    font-size: 16px; /* ajusta o tamanho se quiser menor que desktop */
   }
   .hero-image {
     width: 120px;
