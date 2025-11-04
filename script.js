@@ -3,8 +3,8 @@ const products = [
   { id:2, title:"Urso com Macacão Bege", image:"images/urso_macacao_bege.jpeg", price:80.00, desc:"Produzido em crochê com técnica de amigurumi.</p><p>Tamanho aproximado: 20 cm.</p><p>🧸 Delicado e encantador, ideal para celebrar momentos especiais com doçura.</p>"},
   { id:3, title:"Tartaruga", image:"images/tartaruga.jpeg", price:60.00, desc:"<p>Produzido em crochê com técnica de amigurumi.</p><p>Tamanho aproximado: 25 cm.</p><p>🐢 Macia e delicada, traz um toque de fofura e tranquilidade a qualquer ambiente.</p>"},
   { id:4, title:"Vaquinha", image:"images/vaca.jpeg", price:50.00, desc:"<p>Produzido em crochê com técnica de amigurumi.</p><p>Tamanho aproximado: 18 cm.</p><p>🐮 Cheia de charme e personalidade, uma companhia fofa que conquista corações.</p>"},
-  { id:5, title:"Coelho com Macacão Azul", image:"images/coelho_macacao_azul.jpeg", price:80.00, desc:"<p>Produzido em crochê com técnica de amigurumi.</p><p>Tamanho aproximado: 20 cm.</p><p>🐰 Maciez e encanto em cada detalhe, feito para espalhar alegria e aconchego.</p>"},
-  { id:6, title:"Coelho com Vestido Rosa", image:"images/coelho_macacao_rosa.jpeg", price:80.00, desc:"<p>Produzido em crochê com técnica de amigurumi.</p><p>Tamanho aproximado: 20 cm.</p><p>🐰 Um mimo irresistível, perfeito para quem ama delicadeza e carinho.</p>"},
+  { id:5, title:"Coelho com Macacão Azul", image:"images/coelho_macacao_azul.jpeg", price:60.00, desc:"<p>Produzido em crochê com técnica de amigurumi.</p><p>Tamanho aproximado: 20 cm.</p><p>🐰 Maciez e encanto em cada detalhe, feito para espalhar alegria e aconchego.</p>"},
+  { id:6, title:"Coelho com Vestido Rosa", image:"images/coelho_macacao_rosa.jpeg", price:60.00, desc:"<p>Produzido em crochê com técnica de amigurumi.</p><p>Tamanho aproximado: 20 cm.</p><p>🐰 Um mimo irresistível, perfeito para quem ama delicadeza e carinho.</p>"},
   { id:7, title:"Chaveiro de Baleia", image:"images/chaveiro_baleia.jpeg", price:15.00, desc:"<p>Produzido em crochê com técnica de amigurumi.</p><p>Tamanho aproximado: 6 cm.</p><p>🐋 Pequeno no tamanho, grande no charme, um acessório fofo para colocar na bolsa ou mochila.</p>"},
   { id:8, title:"Chaveiro de Tartaruga", image:"images/chaveiro_tartaruga.jpeg", price:20.00, desc:"<p>Produzido em crochê com técnica de amigurumi.</p><p>Tamanho aproximado: 9 cm.</p><p>🐢 Detalhes encantadores e cheios de personalidade, ideal para quem ama o mar e a natureza.</p>"}
 ];
@@ -70,3 +70,4 @@ hamburgerBtn.addEventListener('click', ()=>{
 // Initialize
 document.getElementById('year').textContent = new Date().getFullYear();
 renderProducts();
+
