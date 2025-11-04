@@ -1,6 +1,6 @@
 const products = [
-  { id:1, title:"Urso com Macacão Azul", image:"images/urso_macacao_azul.jpeg", price:80.00, desc:"Produzido em crochê com técnica de amigurumi.</p><p>Tamanho aproximado: 20 cm.</p><p>🧸 Um clássico cheio de ternura, perfeito para presentear com carinho e estilo.</p>"},
-  { id:2, title:"Urso com Macacão Bege", image:"images/urso_macacao_bege.jpeg", price:80.00, desc:"Produzido em crochê com técnica de amigurumi.</p><p>Tamanho aproximado: 20 cm.</p><p>🧸 Delicado e encantador, ideal para celebrar momentos especiais com doçura.</p>"},
+  { id:1, title:"Urso com Macacão Azul", image:"images/urso_macacao_azul.jpeg", price:60.00, desc:"Produzido em crochê com técnica de amigurumi.</p><p>Tamanho aproximado: 20 cm.</p><p>🧸 Um clássico cheio de ternura, perfeito para presentear com carinho e estilo.</p>"},
+  { id:2, title:"Urso com Macacão Bege", image:"images/urso_macacao_bege.jpeg", price:60.00, desc:"Produzido em crochê com técnica de amigurumi.</p><p>Tamanho aproximado: 20 cm.</p><p>🧸 Delicado e encantador, ideal para celebrar momentos especiais com doçura.</p>"},
   { id:3, title:"Tartaruga", image:"images/tartaruga.jpeg", price:60.00, desc:"<p>Produzido em crochê com técnica de amigurumi.</p><p>Tamanho aproximado: 25 cm.</p><p>🐢 Macia e delicada, traz um toque de fofura e tranquilidade a qualquer ambiente.</p>"},
   { id:4, title:"Vaquinha", image:"images/vaca.jpeg", price:50.00, desc:"<p>Produzido em crochê com técnica de amigurumi.</p><p>Tamanho aproximado: 18 cm.</p><p>🐮 Cheia de charme e personalidade, uma companhia fofa que conquista corações.</p>"},
   { id:5, title:"Coelho com Macacão Azul", image:"images/coelho_macacao_azul.jpeg", price:60.00, desc:"<p>Produzido em crochê com técnica de amigurumi.</p><p>Tamanho aproximado: 20 cm.</p><p>🐰 Maciez e encanto em cada detalhe, feito para espalhar alegria e aconchego.</p>"},
@@ -70,4 +70,3 @@ hamburgerBtn.addEventListener('click', ()=>{
 // Initialize
 document.getElementById('year').textContent = new Date().getFullYear();
 renderProducts();
-
