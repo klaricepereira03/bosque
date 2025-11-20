@@ -9,9 +9,9 @@ const products = [
   { id:8, title:"Raposa", image:"images/raposa.jpeg", price:54.90, desc:"<p>Produzido em crochê com técnica de amigurumi.</p><p>Tamanho aproximado: 17 cm.</p><p> 🦊 Com um olhar doce e traços delicados, a raposa é uma peça cheia de encanto e personalidade.</p>"},
   { id:9, title:"Groot", image:"images/groot.jpeg", price:36.90, desc:"<p>Produzido em crochê com técnica de amigurumi.</p><p>Tamanho aproximado: 12 cm.</p><p> 🌱 Inspirado no personagem mais carismático das galáxias, o Baby Groot é cheio de personalidade e fofura.</p>"},
   { id:10, title:"Coruja", image:"images/corujal.jpeg", price:54.90, desc:"<p>Produzido em crochê com técnica de amigurumi.</p><p>Tamanho aproximado: 11 cm.</p><p> 🦉 Com tons vibrantes de laranja, esta corujinha leva encanto e alegria para qualquer ambiente.</p>"}, 
-  { id:10, title:"Coruja", image:"images/corujab.jpeg", price:54.90, desc:"<p>Produzido em crochê com técnica de amigurumi.</p><p>Tamanho aproximado: 11 cm.</p><p> 🦉 Em tons suaves e aconchegantes, a coruja bege transmite calma e delicadeza.</p>"}, 
+  { id:11, title:"Coruja", image:"images/corujab.jpeg", price:54.90, desc:"<p>Produzido em crochê com técnica de amigurumi.</p><p>Tamanho aproximado: 11 cm.</p><p> 🦉 Em tons suaves e aconchegantes, a coruja bege transmite calma e delicadeza.</p>"}, 
   { id:12, title:"Chaveiro de Baleia", image:"images/chaveiro_baleia.jpeg", price:22.90, desc:"<p>Produzido em crochê com técnica de amigurumi.</p><p>Tamanho aproximado: 6 cm.</p><p>🐋 Pequeno no tamanho, grande no charme, um acessório fofo para colocar na bolsa ou mochila.</p>"},
-  { id:13, title:"Chaveiro de Tartaruga", image:"images/chaveiro_tartaruga.jpeg", price:22.90, desc:"<p>Produzido em crochê com técnica de amigurumi.</p><p>Tamanho aproximado: 9 cm.</p><p>🐢 Detalhes encantadores e cheios de personalidade, ideal para quem ama o mar e a natureza.</p>"}
+  { id:13, title:"Chaveiro de Tartaruga", image:"images/chaveiro_tartaruga.jpeg", price:22.90, desc:"<p>Produzido em crochê com técnica de amigurumi.</p><p>Tamanho aproximado: 9 cm.</p><p>🐢 Detalhes encantadores e cheios de personalidade, ideal para quem ama o mar e a natureza.</p>"},
   { id:14, title:"Patos", image:"images/patos.jpeg", price:24.90, desc:"<p>Produzido em crochê com técnica de amigurumi.</p><p>Tamanho aproximado: 8 cm.</p><p> 🦆 Um chaveiro de patinho super fofo, perfeito para decorar bolsas, mochilas ou chaves.</p>"}, 
 ];
 
@@ -77,3 +77,4 @@ hamburgerBtn.addEventListener('click', ()=>{
 // Initialize
 document.getElementById('year').textContent = new Date().getFullYear();
 renderProducts();
+
