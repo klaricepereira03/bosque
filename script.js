@@ -58,7 +58,7 @@ const products = [
     image: "images/gatos.jpeg",
     price: 54.90,
     category: "amigurumi",
-    desc: "<p>Produzido em crochê com técnica de amigurumi.</p><p>Tamanho aproximado: 18 cm.</p><p>🐱 Gatinhos adoráveis e cheios de charme, perfeitos para alegrar qualquer ambiente.</p>"
+    desc: "<p>Produzido em crochê com técnica de amigurumi.</p><p>Tamanho aproximado: 14 cm.</p><p>🐱 Gatinhos adoráveis e cheios de charme, perfeitos para alegrar qualquer ambiente.</p>"
   },
   {
     id: 8,
@@ -349,3 +349,4 @@ if ('IntersectionObserver' in window) {
     });
   }, 100);
 }
+
