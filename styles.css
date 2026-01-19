@@ -673,6 +673,30 @@ button {
   color: var(--primary-dark);
 }
 
+/* Contact Card Link (WhatsApp clicável) */
+.contact-card-link {
+  display: block;
+  text-decoration: none;
+  transition: all var(--transition);
+  cursor: pointer;
+}
+
+.contact-card-link:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--primary-color);
+}
+
+.contact-card-link h4,
+.contact-card-link p {
+  transition: color var(--transition);
+}
+
+.contact-card-link:hover h4 {
+  color: var(--primary-color);
+}
+
+
 /* ===================================
    WhatsApp Float - Static
    =================================== */
